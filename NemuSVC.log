@@ -1,0 +1,34 @@
+VirtualBox COM Server 5.0.14_OSE r105127 win.amd64 (Mar 29 2017 10:16:58) release log
+00:00:00.076787 main     Log opened 2021-01-09T01:19:33.306263800Z
+00:00:00.076787 main     Build Type: release
+00:00:00.076787 main     OS Product: Windows 10
+00:00:00.076787 main     OS Release: 10.0.18363
+00:00:00.076787 main     OS Service Pack: 
+00:00:00.115717 main     DMI Product Name: K36
+00:00:00.135662 main     DMI Product Version: TBD by OEM
+00:00:00.135662 main     Host RAM: 8113MB total, 2834MB available
+00:00:00.135662 main     Executable: D:\chandao\emulator\nemu\hypervisor\NemuSVC.exe
+00:00:00.135662 main     Process ID: 18904
+00:00:00.135662 main     Package type: WINDOWS_64BITS_GENERIC (OSE)
+00:00:00.205442          Home directory: 'C:\Users\Admin/.NEMU'
+00:00:00.234382          Loading settings file "C:\Users\Admin/.NEMU\VirtualBox.xml" with version "1.12-windows"
+00:00:00.288222          USBLibInit: USB Service not found
+00:00:00.463786          netIfGetBoundAdapters: could not find either 'oracle_NemuNetLwf' or 'sun_NemuNetFlt' components (0x1)
+00:00:00.549057          HostDnsMonitor: old information
+00:00:00.549057            no server entries
+00:00:00.549057            no search string entries
+00:00:00.549057            no domain set
+00:00:00.549057          HostDnsMonitor: new information
+00:00:00.549057            server 1: 123.125.81.6
+00:00:00.549057            server 2: 114.114.114.114
+00:00:00.549057            no search string entries
+00:00:00.549057            no domain set
+00:00:00.553034          HostDnsMonitorProxy::notify
+00:00:00.561009          VD: VDInit finished
+00:00:00.591925          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={0eb668d2-595e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.648775          Loading settings file "D:\chandao\emulator\nemu\vms\myandrovm_vbox86\myandrovm_vbox86.nemu" with version "1.15-windows"
+00:00:04.137281          WARNING [COM]: aRC=E_FAIL (0x80004005) aIID={afca788c-5477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy Service (VERR_FILE_NOT_FOUND). The service might not be installed on the host computer}, preserve=true  aResultDetail=0
+00:00:06.060000          ERROR [COM]: aRC=NEMU_E_INVALID_OBJECT_STATE (0x80bb0007) aIID={f30138d4-e5ea-5b3a-8858-a059de4c93fd} aComponent={MachineWrap} aText={The given session is busy}, preserve=false aResultDetail=0
+00:24:42.820393 main     ERROR [COM]: aRC=NEMU_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-53e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium 'D:\chandao\emulator\nemu\vms\myandrovm_vbox86\myandrovm_vbox86-disk1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:24:42.820393 main     ERROR [COM]: aRC=NEMU_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-53e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium 'D:\chandao\emulator\nemu\vms\myandrovm_vbox86\myandrovm_vbox86-disk2.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:24:42.848271 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-56b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
